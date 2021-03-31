@@ -131,7 +131,8 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </textField>
                                                 </subviews>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstItem="u8t-eN-F7d" firstAttribute="top" secondItem="38V-Ff-A0K" secondAttribute="top" id="HhX-t7-54c"/>
                                                     <constraint firstItem="u8t-eN-F7d" firstAttribute="leading" secondItem="38V-Ff-A0K" secondAttribute="leading" constant="8" id="hd8-LF-7lf"/>
@@ -193,20 +194,20 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="stargazerCell" id="G2u-Z3-NQf" customClass="StargazerTableViewCell" customModule="Stargazers" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="414" height="104.5"/>
+                                <rect key="frame" x="0.0" y="28" width="414" height="96.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="G2u-Z3-NQf" id="ZaM-pD-Ptw">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="104.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="96.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="wvb-Nr-oc5">
-                                            <rect key="frame" x="32" y="8" width="350" height="88.5"/>
+                                            <rect key="frame" x="16" y="8" width="366" height="80.5"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="AlU-Tg-Q7b">
-                                                    <rect key="frame" x="0.0" y="0.5" width="88" height="88"/>
+                                                    <rect key="frame" x="0.0" y="0.5" width="80" height="80"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="88" id="kpU-tq-sHa"/>
-                                                        <constraint firstAttribute="height" constant="88" id="mrA-Os-Ih8"/>
+                                                        <constraint firstAttribute="width" constant="80" id="kpU-tq-sHa"/>
+                                                        <constraint firstAttribute="height" constant="80" id="mrA-Os-Ih8"/>
                                                     </constraints>
                                                     <userDefinedRuntimeAttributes>
                                                         <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -215,7 +216,7 @@
                                                     </userDefinedRuntimeAttributes>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qfh-bc-dMa">
-                                                    <rect key="frame" x="104" y="34.5" width="246" height="20"/>
+                                                    <rect key="frame" x="96" y="30.5" width="270" height="20"/>
                                                     <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="20"/>
                                                     <color key="textColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -226,7 +227,7 @@
                                     <constraints>
                                         <constraint firstAttribute="trailing" secondItem="wvb-Nr-oc5" secondAttribute="trailing" constant="32" id="JIH-qF-auz"/>
                                         <constraint firstAttribute="bottom" secondItem="wvb-Nr-oc5" secondAttribute="bottom" constant="8" id="TEq-LG-Oik"/>
-                                        <constraint firstItem="wvb-Nr-oc5" firstAttribute="leading" secondItem="ZaM-pD-Ptw" secondAttribute="leading" constant="32" id="XIB-UP-VOw"/>
+                                        <constraint firstItem="wvb-Nr-oc5" firstAttribute="leading" secondItem="ZaM-pD-Ptw" secondAttribute="leading" constant="16" id="XIB-UP-VOw"/>
                                         <constraint firstItem="wvb-Nr-oc5" firstAttribute="top" secondItem="ZaM-pD-Ptw" secondAttribute="top" constant="8" id="mCj-XZ-Ydy"/>
                                     </constraints>
                                 </tableViewCellContentView>
